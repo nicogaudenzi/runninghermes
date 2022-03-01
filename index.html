@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla JS Physics Library</title>
+    <style>
+        #canvas{
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+            background: #fffacc;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="canvas">
-        
-    </canvas>
+    <canvas id="canvas" tabindex=0 width="640" height="480"></canvas>
+
     <script src="/ball.js"></script>
+    <script src="/Vector.js"></script>
+    <script src="/Walls.js"></script>
+    <script src="/Matrix.js"></script>
+    <!-- <script src="/KeyPressListener.js"></script> -->
     <script src="/main.js"></script>
-    <script src="/KeyPressListener"></script>
 </body>
 </html>
